@@ -39,4 +39,4 @@ cm = confusion_matrix(y_test, y_pred)
 
 # Pairplot
 import seaborn as sns
-sns.pairplot(dataset, hue="Species");
+sns.pairplot(dataset, hue = "Species");
